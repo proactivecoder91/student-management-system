@@ -1,19 +1,19 @@
 {
-  "posts": [
+  "students": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Bruce",
+      "age": 17
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Clark",
+      "age": 18
+    },
+    {
+      "id": 3,
+      "name": "Diana",
+      "age": 17
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
