@@ -27,6 +27,7 @@ const StudentList = () => {
                 <td>ID</td>
                 <td>Name</td>
                 <td>Age</td>
+                <td>Actions</td>
               </tr>
             </thead>
             <tbody>
@@ -36,6 +37,11 @@ const StudentList = () => {
                     <td>{item.id}</td>
                     <td>{item.name}</td>
                     <td>{item.age}</td>
+                    <td>
+                      <button className="btn bg-dark text-light">
+                        Details
+                      </button>
+                    </td>
                   </tr>
                 ))}
             </tbody>
